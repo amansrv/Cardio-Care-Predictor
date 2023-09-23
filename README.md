@@ -37,7 +37,7 @@ The final part of the project displays the various heart diseases linked directl
 
 ```
 setTimeout(() => {
-        fetch(`https://heartapi.herokuapp.com/predict?age=${age}&sex=${sex}&cigs=${cigs}&chol=${cholestrol}&sBP=${sBP}&dia=${diabetes}&dBP=${dBP}&gluc=${glucose}&hRate=${heartRate}`)
+        fetch(`https://cardio-care-predictor-api.onrender.com/predict?age=${age}&sex=${sex}&cigs=${cigs}&chol=${cholestrol}&sBP=${sBP}&dia=${diabetes}&dBP=${dBP}&gluc=${glucose}&hRate=${heartRate}`)
         .then(res => res.json())
         .then(data => {
           prediction = parseFloat(data['probability'][0][1]).toFixed(5);
@@ -45,7 +45,7 @@ setTimeout(() => {
           document.querySelector('.loader').style.display = 'none';
           if (cigs > 0 & prediction > 0.07) {
             document.querySelector('.clearfix').innerHTML = `
-            <p class="nl-form">Quit Smoking Today<br>Predicted probability of having a coronary heart disease (Heart Attack)is ${prediction*100} % <br>Please Consult Cardiologist</p>`;
+            <p class="nl-form">Quit Smoking Today<br>Predicted probability of having coronary heart disease (Heart Attack)is ${prediction*100} % <br>Please Consult Cardiologist</p>`;
           }
           else if (cigs > 1 & prediction < 0.07){
             document.querySelector('.clearfix').innerHTML = `
