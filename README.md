@@ -3,6 +3,7 @@
 - Web Application using Flask REST API which predicts the probability of Coronary Heart Disease in a patient taking 9 different parameters based on the patient's history as input.
 - The API uses a Logistic Regression Model from sci-kit-learn trained on the Framingham Heart Study Dataset from Kaggle. The model achieved a test accuracy of around 88%.
 
+## Project Demo
 * [Live demo here](https://cardio-care-predictor.netlify.app/)
 
 ## Table of Contents
@@ -33,8 +34,6 @@ The final part of the project displays the various heart diseases linked directl
 - CSS3
 - Javascript
 - [Flask REST API](https://cardio-care-predictor-api.onrender.com/)
-- collect.chat
-- GoogleMapsAPI
 
 ```
 setTimeout(() => {
