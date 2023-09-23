@@ -1,9 +1,9 @@
 # Cardio Care Predictor 
 
-> Web Application using Flask REST API which predicts the probability of Coronary Heart Disease in a patient taking 9 different parameters based on the patient's history as input.
-> The API uses a Logistic Regression Model from sci-kit-learn trained on the Framingham Heart Study Dataset from Kaggle. The model achieved a test accuracy of around 88%.
+- Web Application using Flask REST API which predicts the probability of Coronary Heart Disease in a patient taking 9 different parameters based on the patient's history as input.
+- The API uses a Logistic Regression Model from sci-kit-learn trained on the Framingham Heart Study Dataset from Kaggle. The model achieved a test accuracy of around 88%.
 
-> [Live demo here](https://cardio-care-predictor.netlify.app/)
+* [Live demo here](https://cardio-care-predictor.netlify.app/)
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -24,9 +24,9 @@ The final part of the project displays the various heart diseases linked directl
 - Website will be responsive so as to be accessible on mobile phones, tablets, laptops, and PCs. To make the website function quickly, the website is authentication-free, and there is no database attached and no data has been stored that will also maintain the privacy of the user's medical details. 
 
 ## Usage
-> Its Easy to Use Website
-> Input generic information like age, sex, no. of cigarettes smoked per day, cholesterol level, blood pressure, whether diabetic patient, sugar level, and heart rate.
-> For BMI, BMR input height, weight, age, and exercise type.
+- It's Easy to Use Website
+- Input generic information like age, sex, no. of cigarettes smoked per day, cholesterol level, blood pressure, whether diabetic patient, sugar level, and heart rate.
+- For BMI, BMR input height, weight, age, and exercise type.
 
 ## Technologies Used
 - HTML5
